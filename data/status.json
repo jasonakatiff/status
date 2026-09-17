@@ -1,55 +1,55 @@
 {
-  "generatedAt": "2026-09-17T00:01:25.572Z",
-  "overall": "degraded",
-  "lastAlertAt": "2026-09-17T00:01:25.572Z",
+  "generatedAt": "2026-09-17T04:50:16.688Z",
+  "overall": "operational",
+  "lastAlertAt": null,
   "checks": [
     {
       "name": "app-prod",
       "ok": true,
-      "ms": 413,
+      "ms": 335,
       "detail": "HTTP 200"
     },
     {
       "name": "app-staging",
       "ok": true,
-      "ms": 580,
+      "ms": 177,
       "detail": "HTTP 200"
     },
     {
       "name": "lead-processing",
       "ok": true,
-      "ms": 210,
-      "detail": "avg 11534ms · p95 12557ms (1h, n=2)",
-      "metric": 11534
+      "ms": 283,
+      "detail": "avg 3663ms · p95 4863ms (1h, n=73)",
+      "metric": 3663
     },
     {
       "name": "lead-ping",
       "ok": true,
-      "ms": 210,
+      "ms": 283,
       "detail": "no traffic in 24h"
     },
     {
       "name": "call-ping",
       "ok": true,
-      "ms": 1,
+      "ms": 0,
       "detail": "skipped (not configured)"
     },
     {
       "name": "sw-token-mint",
       "ok": true,
-      "ms": 240,
+      "ms": 544,
       "detail": "token minted"
     },
     {
       "name": "sw-provision",
-      "ok": false,
-      "ms": 5453,
-      "detail": "canary subscriber resource not found"
+      "ok": true,
+      "ms": 593,
+      "detail": "create+delete OK"
     },
     {
       "name": "sw-webrtc-reg",
       "ok": true,
-      "ms": 2214,
+      "ms": 2294,
       "detail": "registered"
     }
   ]
