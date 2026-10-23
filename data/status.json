@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-10-23T19:07:06.763Z",
+  "generatedAt": "2026-10-23T19:23:20.833Z",
   "overall": "operational",
   "lastAlertAt": null,
   "checks": [
     {
       "name": "app-prod",
       "ok": true,
-      "ms": 338,
+      "ms": 357,
       "detail": "HTTP 200"
     },
     {
       "name": "app-staging",
       "ok": true,
-      "ms": 524,
+      "ms": 289,
       "detail": "HTTP 200"
     },
     {
       "name": "lead-processing",
       "ok": true,
-      "ms": 496,
-      "detail": "avg 5479ms · p95 6779ms (1h, n=10)",
-      "metric": 5479
+      "ms": 448,
+      "detail": "avg 5554ms · p95 6753ms (1h, n=7)",
+      "metric": 5554
     },
     {
       "name": "lead-ping",
       "ok": true,
-      "ms": 496,
-      "detail": "avg 451ms · p95 524ms (1h, n=4)",
-      "metric": 451
+      "ms": 448,
+      "detail": "avg 390ms · p95 523ms (1h, n=4)",
+      "metric": 390
     },
     {
       "name": "call-ping",
@@ -38,19 +38,19 @@
     {
       "name": "sw-token-mint",
       "ok": true,
-      "ms": 321,
+      "ms": 304,
       "detail": "token minted"
     },
     {
       "name": "sw-provision",
       "ok": true,
-      "ms": 638,
+      "ms": 985,
       "detail": "create+delete OK"
     },
     {
       "name": "sw-webrtc-reg",
       "ok": true,
-      "ms": 2737,
+      "ms": 11431,
       "detail": "registered"
     }
   ]
