@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-10-28T22:19:34.214Z",
-  "overall": "degraded",
-  "lastAlertAt": "2026-10-28T22:19:34.215Z",
+  "generatedAt": "2026-10-28T22:33:32.057Z",
+  "overall": "operational",
+  "lastAlertAt": null,
   "checks": [
     {
       "name": "app-prod",
       "ok": true,
-      "ms": 426,
+      "ms": 2212,
       "detail": "HTTP 200"
     },
     {
       "name": "app-staging",
       "ok": true,
-      "ms": 4228,
+      "ms": 4405,
       "detail": "HTTP 200"
     },
     {
       "name": "lead-processing",
       "ok": true,
-      "ms": 585,
-      "detail": "avg 7624ms · p95 17318ms (1h, n=6)",
-      "metric": 7624
+      "ms": 731,
+      "detail": "avg 5133ms · p95 7682ms (1h, n=8)",
+      "metric": 5133
     },
     {
       "name": "lead-ping",
       "ok": true,
-      "ms": 585,
-      "detail": "avg 342ms · p95 502ms (1h, n=7)",
-      "metric": 342
+      "ms": 731,
+      "detail": "avg 461ms · p95 700ms (1h, n=6)",
+      "metric": 461
     },
     {
       "name": "call-ping",
@@ -38,20 +38,20 @@
     {
       "name": "sw-token-mint",
       "ok": true,
-      "ms": 265,
+      "ms": 308,
       "detail": "token minted"
     },
     {
       "name": "sw-provision",
       "ok": true,
-      "ms": 862,
+      "ms": 806,
       "detail": "create+delete OK"
     },
     {
       "name": "sw-webrtc-reg",
-      "ok": false,
-      "ms": 30217,
-      "detail": "Timed out after 30000 ms while waiting for the WS endpoint URL to appear in stdout!"
+      "ok": true,
+      "ms": 14852,
+      "detail": "registered"
     }
   ]
 }
