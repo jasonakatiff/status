@@ -1,56 +1,56 @@
 {
-  "generatedAt": "2026-10-30T23:33:21.737Z",
+  "generatedAt": "2026-10-30T23:47:51.242Z",
   "overall": "degraded",
   "lastAlertAt": "2026-10-30T20:33:35.861Z",
   "checks": [
     {
       "name": "app-prod",
       "ok": true,
-      "ms": 253,
+      "ms": 348,
       "detail": "HTTP 200"
     },
     {
       "name": "app-staging",
       "ok": true,
-      "ms": 4281,
+      "ms": 3412,
       "detail": "HTTP 200"
     },
     {
       "name": "lead-processing",
       "ok": true,
-      "ms": 438,
-      "detail": "avg 4501ms · p95 10426ms (1h, n=5)",
-      "metric": 4501
+      "ms": 272,
+      "detail": "avg 4611ms · p95 10273ms (1h, n=6)",
+      "metric": 4611
     },
     {
       "name": "lead-ping",
       "ok": true,
-      "ms": 438,
-      "detail": "avg 813ms · p95 840ms (1h, n=3)",
-      "metric": 813
+      "ms": 272,
+      "detail": "avg 784ms · p95 840ms (1h, n=3)",
+      "metric": 784
     },
     {
       "name": "call-ping",
       "ok": true,
-      "ms": 0,
+      "ms": 1,
       "detail": "skipped (not configured)"
     },
     {
       "name": "sw-token-mint",
       "ok": true,
-      "ms": 233,
+      "ms": 263,
       "detail": "token minted"
     },
     {
       "name": "sw-provision",
       "ok": true,
-      "ms": 798,
+      "ms": 599,
       "detail": "create+delete OK"
     },
     {
       "name": "sw-webrtc-reg",
       "ok": false,
-      "ms": 3994,
+      "ms": 8906,
       "detail": "[CANARY] FAIL: Failed to fetch dynamically imported module: https://esm.sh/@signalwire/js@3.30.0"
     }
   ]
